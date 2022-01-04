@@ -38,10 +38,15 @@ function main() {
     }
   } while (Math.abs(neuron.lastError) > neuron.ratioToTrain)
 
-  const cases = [23, 6, 2, 1, 1, 587]
+  const convertСases = [23, 6, 2, 1, 1, 587]
+  const unconvertСases = [1203, 7532, 7400]
 
-  cases.forEach(value => {
-    console.log(`${value} руб. - это ${neuron.convert(value)} дол.`)
+  convertСases.forEach(value => {
+    console.log(`${value} дол. - это ${neuron.convert(value)} руб.`)
+  })
+
+  unconvertСases.forEach(value => {
+    console.log(`${value} руб. - это ${neuron.unconvert(value)} дол.`)
   })
 }
 
