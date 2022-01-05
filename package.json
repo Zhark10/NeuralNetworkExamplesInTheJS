@@ -1,0 +1,22 @@
+{
+  "name": "simple_neural_converter",
+  "version": "1.0.0",
+  "description": "1) Нейрон, который учится конвертировать рубли в доллары и наоборот ```bash $ node converter_neuron.js ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhark10/simple_neural_converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhark10/simple_neural_converter/issues"
+  },
+  "homepage": "https://github.com/Zhark10/simple_neural_converter#readme",
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.4"
+  }
+}
