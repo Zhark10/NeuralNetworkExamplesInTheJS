@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Zhark10/simple_neural_converter#readme",
   "dependencies": {
-    "brain.js": "^2.0.0-beta.4"
+    "brain.js": "2.0.0-beta.4"
   }
 }
